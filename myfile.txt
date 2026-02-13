@@ -1,0 +1,39 @@
+PROCEDURE Mystery (x)
+{
+    result ← 0
+    REPEAT 5 TIMES
+    {
+        result ← x + result
+    }
+    RETURN result
+}
+
+PROCEDURE Mystery (word, list)
+{
+    FOR EACH item IN list
+    {
+        IF (item = word)
+        {
+            RETURN (true)
+        }
+    }
+    RETURN (false)
+}
+
+fullMeal ← 0
+sideDish ← 0
+REPEAT 1000 TIMES
+{
+	IF (<MISSING CODE>)
+	{
+		fullMeal ← fullMeal + 1
+	}
+	ELSE
+	{
+		sideDish ← sideDish + 1
+	}
+}
+DISPLAY (fullMeal)
+DISPLAY ("full meals were ordered,")
+DISPLAY (sideDish)
+DISPLAY ("side dishes were ordered.")

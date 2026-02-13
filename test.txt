@@ -1,0 +1,14 @@
+xVal ←1
+yVal ← 0
+
+len ← 1
+
+REPEAT 5 TIMES
+{
+drawLine(xVal, yVal, xVal, yVal + len)
+
+xVal ←  xVal + 1
+
+len ← len + 1
+
+}
